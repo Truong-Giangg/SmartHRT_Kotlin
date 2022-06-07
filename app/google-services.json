@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "755794639266",
+    "project_id": "smarthrt-kotlin",
+    "storage_bucket": "smarthrt-kotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755794639266:android:f0dba3259d7053d1b85afb",
+        "android_client_info": {
+          "package_name": "com.first_java_app.k_login_signup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755794639266-1fgqlra4pcrfol3ahm6f9t1ns0c9j259.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzqKktRRnw2p33fmeMzK4HoUS9xYmKIcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755794639266-1fgqlra4pcrfol3ahm6f9t1ns0c9j259.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

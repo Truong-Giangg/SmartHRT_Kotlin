@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
@@ -17,11 +18,13 @@ import com.first_java_app.k_login_signup.model.User
 import com.first_java_app.k_login_signup.*
 import com.first_java_app.k_login_signup.databinding.FragmentSignInBinding
 import com.first_java_app.k_login_signup.viewmodel.UserLoginViewModel
+import org.opencv.android.OpenCVLoader
 
 class SignInFragment : Fragment() {
     private lateinit var sharePreferences : SharedPreferences
     private lateinit var binding : FragmentSignInBinding
     private lateinit var viewModel: UserLoginViewModel
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -57,6 +60,11 @@ class SignInFragment : Fragment() {
         binding.gotoSignup.setOnClickListener {
             val controller = findNavController()
             controller.navigate(R.id.action_signInFragment_to_signUpFragment)
+        }
+        if(OpenCVLoader.initDebug()){
+            println("giang-opencv done!")
+        }else{
+            println("giang-opencv failed!")
         }
     }
 

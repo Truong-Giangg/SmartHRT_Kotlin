@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "K_Login_Signup"
 include ':app'
+include ':sdk'
