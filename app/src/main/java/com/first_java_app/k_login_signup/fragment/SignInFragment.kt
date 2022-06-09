@@ -18,6 +18,7 @@ import com.first_java_app.k_login_signup.model.User
 import com.first_java_app.k_login_signup.*
 import com.first_java_app.k_login_signup.databinding.FragmentSignInBinding
 import com.first_java_app.k_login_signup.viewmodel.UserLoginViewModel
+import com.first_java_app.k_login_signup.FireBase
 import org.opencv.android.OpenCVLoader
 
 class SignInFragment : Fragment() {
@@ -66,6 +67,10 @@ class SignInFragment : Fragment() {
         }else{
             println("giang-opencv failed!")
         }
+        val setdata = FireBase()
+//        setdata.setFData("message1","blablabla")
+//        println("giangne"+setdata.getFData("message"))
+
     }
 
     private fun listenerSuccessEvent() {

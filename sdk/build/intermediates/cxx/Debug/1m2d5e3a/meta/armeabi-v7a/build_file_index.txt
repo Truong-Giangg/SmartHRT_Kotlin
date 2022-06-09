@@ -1,0 +1,1 @@
+D:\Users\phamv\AndroidStudioProjects\SmartHRT-Kotlin\sdk\libcxx_helper\CMakeLists.txt

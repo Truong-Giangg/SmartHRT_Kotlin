@@ -1,0 +1,44 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 21 min SDK version: x86",
+    "file_": "D:\\Users\\phamv\\AndroidStudioProjects\\SmartHRT-Kotlin\\sdk\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -71047521
+  },
+  {
+    "level_": 0,
+    "message_": "JSON \u0027D:\\Users\\phamv\\AndroidStudioProjects\\SmartHRT-Kotlin\\sdk\\.cxx\\Debug\\1m2d5e3a\\x86\\android_gradle_build.json\u0027 was up-to-date",
+    "file_": "D:\\Users\\phamv\\AndroidStudioProjects\\SmartHRT-Kotlin\\sdk\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2067449776
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "D:\\Users\\phamv\\AndroidStudioProjects\\SmartHRT-Kotlin\\sdk\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -279158356
+  }
+]

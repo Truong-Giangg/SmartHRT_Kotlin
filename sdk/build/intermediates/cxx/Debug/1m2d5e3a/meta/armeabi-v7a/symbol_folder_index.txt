@@ -1,0 +1,1 @@
+D:\Users\phamv\AndroidStudioProjects\SmartHRT-Kotlin\sdk\build\intermediates\cxx\Debug\1m2d5e3a\obj\armeabi-v7a
